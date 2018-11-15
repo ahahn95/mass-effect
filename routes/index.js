@@ -13,12 +13,12 @@ var Wrex = create('Urdnot Wrex', 'Krogan', 'Vanguard', '/images/wrex.png');
 /* GET home psage. */
 router.get('/', function(req, res) {
     res.json([
-        create(Kaiden), 
-        create(Tali), 
-        create(Liara),
-        create(Garrus),
-        create(Ashley),
-        create(Wrex)
+        Kaiden, 
+        Tali, 
+        Liara,
+        Garrus,
+        Ashley,
+        Wrex
     ]);
 });
 
